@@ -150,7 +150,8 @@ public class BrowserRewards {
         robot.mouseMove(1050,230);
         robot.delay(MOUSE_DELAY);
         mouseClick(InputEvent.BUTTON1_DOWN_MASK);
-        robot.delay(2000);
+        robot.delay(3000);
+        maximizeWindow();
     }
 
     /**
